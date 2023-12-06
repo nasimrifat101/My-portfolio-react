@@ -48,8 +48,9 @@ const Banner = () => {
         </p>
         <p>{currentTime}. </p>
         <span className="text-[#3CD7A1] font-semibold hover:text-orange-400 duration-700 ease-in-out">
-          Available for works
+          Available for works.
         </span>
+        
         <div className="flex space-x-5">
             <button className="btn bg-[#3CD7A1] hover:bg-orange-400 text-black duration-500 ease-in-out"> Download Resume</button>
             <button className="btn btn-outline border-orange-400 border-2 text-orange-400 hover:border-[#3CD7A1] hover:bg-[#3CD7A1] duration-500 ease-in-out hover:text-black">Hire Me</button>
