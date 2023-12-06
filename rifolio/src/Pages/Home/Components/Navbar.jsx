@@ -73,7 +73,7 @@ const Navbar = () => {
   );
 
   return (
-    <div  className="max-w-6xl mx-auto">
+    <div  className="max-w-6xl mx-auto hidden lg:block">
       <div className="navbar">
         <div className="navbar-start">
           <a className="text-4xl font-bold text-green-100">RIFAT.</a>

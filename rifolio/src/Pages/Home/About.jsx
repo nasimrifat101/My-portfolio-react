@@ -22,12 +22,12 @@ const Tooltip = ({ text, children }) => {
 
 const About = () => {
   return (
-    <div className="max-w-6xl mx-auto grid grid-cols-3 min-h-screen text-green-100">
-      <div className=" mt-10">
+    <div className="max-w-6xl mx-auto grid lg:grid-cols-3 lg:h-[570px] text-green-100 cursor-crosshair">
+      <div className=" mt-10 hover:opacity-50 ease-in-out duration-1000 p-10 lg:p-0">
         <img src={hero} alt="landing" />
       </div>
-      <div className="col-span-2 px-5 space-y-5">
-        <h1 className="text-4xl mt-20 font-bold">
+      <div className="lg:col-span-2 px-5 space-y-5">
+        <h1 className=" text-2xl lg:text-4xl lg:mt-20 font-bold">
           I'm a{" "}
           <span className="text-[#3CD7A1] hover:text-orange-400 ease-in-out duration-500">
             Frontend Developer
@@ -45,11 +45,11 @@ const About = () => {
           it be HTML CSS or any other languages. When I'm not coding or pushing
           pixels, you can find me in the gym.
         </p>
-        <p className="text-3xl font-bold pb-5">
+        <p className="text-xl lg:text-3xl font-bold pb-5">
           I'm <span className="text-[#3CD7A1]">skilled</span> in
         </p>
-        <div className="space-y-14">
-          <div className="flex justify-between text-5xl text-[#3CD7A1]">
+        <div className="space-y-14 pb-10 lg:pb-0">
+          <div className="flex justify-between text-3xl lg:text-5xl text-[#3CD7A1]">
             <Tooltip text="HTML5">
               <FaHtml5 />
             </Tooltip>
@@ -66,7 +66,7 @@ const About = () => {
               <IoLogoJavascript />
             </Tooltip>
           </div>
-          <div className="flex justify-between text-5xl text-[#3CD7A1]">
+          <div className="flex justify-between text-3xl lg:text-5xl text-[#3CD7A1]">
             <Tooltip text="Vite">
               <SiVite />
             </Tooltip>
