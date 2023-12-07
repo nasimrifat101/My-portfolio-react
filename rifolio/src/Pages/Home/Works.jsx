@@ -20,6 +20,7 @@ const Works = () => {
     window.open(link, "_blank");
   };
 
+  
   return (
     <div className="max-w-6xl mx-auto lg:h-[570px] text-green-50 pb-5 lg:pb-0">
       <h1 className="px-4 lg:px-0 text-4xl font-bold pt-10">
