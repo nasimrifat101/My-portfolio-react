@@ -46,41 +46,65 @@ const About = () => {
           pixels, you can find me in the gym.
         </p>
         <p className="text-xl lg:text-3xl font-bold pb-5">
-          I'm <span className="text-[#3CD7A1]">skilled</span> in
+          I'm{" "}
+          <span className="text-[#3CD7A1] hover:text-orange-400 duration-500 ease-in-out">
+            skilled
+          </span>{" "}
+          in
         </p>
         <div className="space-y-14 pb-10 lg:pb-0">
           <div className="flex justify-between text-3xl lg:text-5xl text-[#3CD7A1]">
             <Tooltip text="HTML5">
-              <FaHtml5 />
+              <span className="hover:text-orange-400 duration-700 ease-in-out">
+                <FaHtml5 />
+              </span>
             </Tooltip>
             <Tooltip text="CSS3">
-              <FaCss3Alt />
+              <span className="hover:text-orange-400 duration-700 ease-in-out">
+                <FaCss3Alt />
+              </span>
             </Tooltip>
             <Tooltip text="Tailwind CSS">
-              <SiTailwindcss />
+              <span className="hover:text-orange-400 duration-700 ease-in-out">
+                <SiTailwindcss />
+              </span>
             </Tooltip>
             <Tooltip text="DaisyUI">
-              <SiDaisyui />
+              <span className="hover:text-orange-400 duration-700 ease-in-out">
+                <SiDaisyui />
+              </span>
             </Tooltip>
             <Tooltip text="JavaScript">
-              <IoLogoJavascript />
+              <span className="hover:text-orange-400 duration-700 ease-in-out">
+                <IoLogoJavascript />
+              </span>
             </Tooltip>
           </div>
           <div className="flex justify-between text-3xl lg:text-5xl text-[#3CD7A1]">
             <Tooltip text="Vite">
-              <SiVite />
+              <span className="hover:text-orange-400 duration-700 ease-in-out">
+                <SiVite />
+              </span>
             </Tooltip>
             <Tooltip text="React">
-              <FaReact />
+              <span className="hover:text-orange-400 duration-700 ease-in-out">
+                <FaReact />
+              </span>
             </Tooltip>
             <Tooltip text="Node.js">
-              <FaNode />
+              <span className="hover:text-orange-400 duration-700 ease-in-out">
+                <FaNode />
+              </span>
             </Tooltip>
             <Tooltip text="Express.js">
-              <SiExpress />
+              <span className="hover:text-orange-400 duration-700 ease-in-out">
+                <SiExpress />
+              </span>
             </Tooltip>
             <Tooltip text="MongoDB">
-              <SiMongodb />
+              <span className="hover:text-orange-400 duration-700 ease-in-out">
+                <SiMongodb />
+              </span>
             </Tooltip>
           </div>
         </div>
