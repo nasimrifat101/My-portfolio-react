@@ -30,7 +30,7 @@ const Works = () => {
       </h1>
       <div className="grid lg:grid-cols-3 gap-10 mt-10 p-4 lg:p-0">
         {data.map((item) => (
-          <div key={item.id} className="card card-compact shadow-xl">
+          <div key={item.id} className="card card-compact hover:shadow-2xl hover:shadow-orange-400 duration-500">
             <figure>
               <img src={item.image} alt={item.name} />
             </figure>
