@@ -16,21 +16,21 @@ const Home = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div data-aos="fade-up" data-aos-duration="1500">
+      <div data-aos="fade-down" data-aos-duration="1500">
         <Banner></Banner>
       </div>
-      <div data-aos="fade-down" data-aos-duration="1500">
+      <div data-aos="fade-up" data-aos-duration="1500">
         <About></About>
       </div>
-      <div data-aos="fade-up" data-aos-duration="1500">
+      <div data-aos="fade-down" data-aos-duration="1500">
         <Works></Works>
       </div>
       <div className="hidden lg:block">
-        <div data-aos="fade-down" data-aos-duration="1500">
+        <div data-aos="fade-up" data-aos-duration="1500">
           <Info></Info>
         </div>
       </div>
-      <div data-aos="fade-up" data-aos-duration="1500">
+      <div data-aos="fade-down" data-aos-duration="1500">
         <ContactForm></ContactForm>
       </div>
     </div>
