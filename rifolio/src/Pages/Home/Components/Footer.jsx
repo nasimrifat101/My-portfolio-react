@@ -31,7 +31,7 @@ const Footer = () => {
         <h1>Ma’a as-salaama</h1>
         </div>
        </div>
-       <div className="hidden lg:block">Design & Developed by Rifat</div>
+       <div className="hidden lg:block text-green-400">Design & Developed by Rifat</div>
       <div className="hidden lg:block">
       <div className="flex space-x-5">
         <h1>Ciao</h1>

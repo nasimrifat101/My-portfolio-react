@@ -22,8 +22,8 @@ const Tooltip = ({ text, children }) => {
 
 const About = () => {
   return (
-    <div className="max-w-6xl mx-auto grid lg:grid-cols-3 lg:h-[570px] text-green-100 cursor-crosshair">
-      <div className=" mt-10 hover:opacity-50 ease-in-out duration-1000 p-10 lg:p-0">
+    <div className="max-w-6xl mx-auto grid lg:grid-cols-3 lg:h-[570px] cursor-crosshair">
+      <div className=" mt-10 opacity-80 hover:opacity-50 ease-in-out duration-1000 p-10 lg:p-0">
         <img src={hero} alt="landing" />
       </div>
       <div className="lg:col-span-2 px-5 space-y-5">

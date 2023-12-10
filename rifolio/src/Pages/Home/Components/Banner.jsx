@@ -51,7 +51,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="lg:h-[500px] grid lg:grid-cols-2 max-w-6xl mx-auto lg:px-2 text-green-50 cursor-not-allowed p-2 lg:p-0">
+    <div className="lg:h-[500px] grid lg:grid-cols-2 max-w-6xl mx-auto lg:px-2 cursor-not-allowed p-2 lg:p-0">
       <div className="space-y-5 flex flex-col justify-center p-4 lg:p-0">
         <h1 className="text-2xl font-bold">Hi I'm</h1>
 
@@ -86,7 +86,7 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <div className="flex justify-end hover:opacity-50 duration-1000 ease-in-out">
+      <div className="flex justify-end opacity-80 hover:opacity-50 duration-1000 ease-in-out">
         <img src={hero} alt="Hero" className="h-[500px] hidden lg:block" />
       </div>
     </div>
