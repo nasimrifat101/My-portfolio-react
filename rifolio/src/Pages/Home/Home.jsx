@@ -7,6 +7,7 @@ import ContactForm from "./ContactForm";
 import Works from "./Works";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Footer from "./Components/Footer";
 
 const Home = () => {
   useEffect(() => {
@@ -33,6 +34,7 @@ const Home = () => {
       <div data-aos="fade-down" data-aos-duration="1500">
         <ContactForm></ContactForm>
       </div>
+      <Footer/>
     </div>
   );
 };
