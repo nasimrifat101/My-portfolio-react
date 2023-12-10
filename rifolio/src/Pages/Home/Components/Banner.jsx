@@ -31,7 +31,7 @@ const Banner = () => {
 
   const handleDownloadResume = () => {
     // Replace the link with the actual URL of your PDF file
-    const resumePdfUrl = "https://www.dropbox.com/scl/fi/bhjd4x080olumq253t8f7/Rifat-s-Resume.pdf?rlkey=cwjgisdd2a2qq1qd0jugbxffb&dl=1";
+    const resumePdfUrl = "https://www.dropbox.com/scl/fi/dy6vzlv0k8n6kd3xp6jru/Rifat-s-Resume-1.pdf?rlkey=4jbzdy5xixhyq5ork229mh5ey&dl=1";
 
     // Create an invisible anchor element
     const downloadLink = document.createElement("a");
