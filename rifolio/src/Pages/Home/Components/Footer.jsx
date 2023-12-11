@@ -1,10 +1,10 @@
-import { FaLinkedin, FaFacebookSquare, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="max-w-6xl mx-auto lg:h-[300px] py-10">
-      <div className="lg:space-y-36">
+    <div className=" lg:h-[300px] py-10 bg-[#151515]">
+      <div className="lg:space-y-36 max-w-6xl mx-auto">
         <div className="flex justify-around text-2xl lg:text-4xl lg:pt-10">
           <span className=" hover:text-green-300 cursor-pointer duration-500">
             <NavLink
@@ -16,8 +16,8 @@ const Footer = () => {
           </span>
           <div className="border-r-2 rotate-12"></div>
           <span className=" hover:text-green-300 cursor-pointer duration-500">
-            <NavLink to="https://web.facebook.com/OMA.RIFAT/" target="_blank">
-              <FaFacebookSquare />
+            <NavLink to="https://wa.link/u6xfx5" target="_blank">
+              <FaWhatsapp />
             </NavLink>
           </span>
           <div className="border-r-2 rotate-12"></div>
@@ -30,10 +30,10 @@ const Footer = () => {
         <div className="flex justify-between font-semibold text-xs">
           <div className="hidden lg:block">
             <div className="flex space-x-5">
-              <h1>Bye</h1>
+              <h1>Ma’a as-salaama</h1>
               <h1>Au Revoir</h1>
               <h1>Adios</h1>
-              <h1>Ma’a as-salaama</h1>
+              <h1>Bye</h1>
             </div>
           </div>
           <div className="hidden lg:block text-green-400">

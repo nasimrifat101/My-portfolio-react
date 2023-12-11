@@ -10,7 +10,7 @@ const Navbar = () => {
         <NavLink to="https://github.com/nasimrifat101" target="_blank" className='font-medium'>GitHub</NavLink>
       </li>
       <li>
-        <NavLink to="https://web.facebook.com/OMA.RIFAT/" target="_blank" className='font-medium'>Facebook</NavLink>
+        <NavLink to="https://wa.link/u6xfx5" target="_blank" className='font-medium'>WhatsApp</NavLink>
       </li>
     </>
   );

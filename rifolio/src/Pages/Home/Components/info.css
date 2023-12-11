@@ -26,8 +26,8 @@
   
   .maskk {
     position: absolute;
-    -webkit-mask-image: url("/public/mask.svg");
-    mask-image: url("/public/mask.svg");
+    -webkit-mask-image: url("/mask.svg");
+    mask-image: url("/mask.svg");
   
     background: #ec4e39;
     -webkit-mask-repeat: no-repeat;

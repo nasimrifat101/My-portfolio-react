@@ -21,6 +21,7 @@ const ContactForm = () => {
         (result) => {
           console.log(result.text);
           toast.success('Email sent Successfully')
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);

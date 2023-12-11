@@ -23,7 +23,7 @@ const Home = () => {
       <div data-aos="fade-up" data-aos-duration="1500">
         <About></About>
       </div>
-      <div data-aos="fade-down" data-aos-duration="1500">
+      <div data-aos="fade-up" data-aos-duration="1500">
         <Works></Works>
       </div>
       <div className="hidden lg:block">
@@ -31,10 +31,14 @@ const Home = () => {
           <Info></Info>
         </div>
       </div>
-      <div data-aos="fade-down" data-aos-duration="1500">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        id="contact-form-section"
+      >
         <ContactForm></ContactForm>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

@@ -30,24 +30,26 @@ const Banner = () => {
   }, []);
 
   const handleDownloadResume = () => {
-    // Replace the link with the actual URL of your PDF file
-    const resumePdfUrl = "https://www.dropbox.com/scl/fi/dy6vzlv0k8n6kd3xp6jru/Rifat-s-Resume-1.pdf?rlkey=4jbzdy5xixhyq5ork229mh5ey&dl=1";
+    const resumePdfUrl =
+      "https://www.dropbox.com/scl/fi/luf2dlgvbs7i7lzjobeho/Rifats_resume_small.pdf?rlkey=rue2bzns4ht0wacwwhlcgmgri&dl=1";
 
-    // Create an invisible anchor element
     const downloadLink = document.createElement("a");
     downloadLink.href = resumePdfUrl;
 
-    // Set the download attribute with the desired filename
     downloadLink.download = "Rifats_Resume.pdf";
 
-    // Append the anchor to the document body
     document.body.appendChild(downloadLink);
 
-    // Trigger a click on the anchor to start the download
     downloadLink.click();
 
-    // Remove the anchor from the document body
     document.body.removeChild(downloadLink);
+  };
+
+  const scrollToContactForm = () => {
+    const contactFormSection = document.getElementById("contact-form-section");
+    if (contactFormSection) {
+      contactFormSection.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -81,7 +83,12 @@ const Banner = () => {
             {" "}
             Download Resume
           </button>
-          <button className="btn btn-outline border-orange-400 border-2 text-orange-400 hover:border-[#3CD7A1] hover:bg-[#3CD7A1] duration-500 ease-in-out hover:text-black">
+          <button
+           onClick={() => {
+            handleDownloadResume();
+            scrollToContactForm();
+          }}
+          className="btn btn-outline border-orange-400 border-2 text-orange-400 hover:border-[#3CD7A1] hover:bg-[#3CD7A1] duration-500 ease-in-out hover:text-black">
             Hire Me
           </button>
         </div>
