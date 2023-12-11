@@ -28,7 +28,8 @@ const Info = () => {
           onMouseLeave={() => {isHovered(false)}}
           className="pp"
         >
-        How many programmers does it take to change a light bulb? None,because that's a hardware issue!
+       
+        ooh I forgot to tell you about my academics. I'm a collage graduate in arts.From 2024 I'll be pursuing diploma in cse.
         </p>
       </motion.div>
       <div className="bodyy">

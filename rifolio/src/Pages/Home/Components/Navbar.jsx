@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className="max-w-6xl mx-auto hidden lg:block ">
       <div className="navbar">
         <div className="navbar-start">
-          <a className="text-4xl font-bold text-green-100">RIFAT.</a>
+          <a className="text-4xl font-bold">RIFAT.</a>
         </div>
         <div className="navbar-end hidden lg:flex list-none space-x-20">
           {navlink}
