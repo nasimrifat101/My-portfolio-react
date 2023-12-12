@@ -7,6 +7,7 @@ import { SiExpress, SiVite } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiDaisyui } from "react-icons/si";
 import hero from "../../assets/landing.png";
+import FramerMagnetic from "./Components/FramerMagnetic";
 
 const Tooltip = ({ text, children }) => {
   return (
@@ -54,58 +55,89 @@ const About = () => {
         </p>
         <div className="space-y-14 pb-10 lg:pb-0">
           <div className="flex justify-between text-3xl lg:text-5xl text-[#3CD7A1]">
-            <Tooltip text="HTML5">
-              <span className="hover:text-orange-400 duration-700 ease-in-out">
-                <FaHtml5 />
-              </span>
-            </Tooltip>
-            <Tooltip text="CSS3">
-              <span className="hover:text-orange-400 duration-700 ease-in-out">
-                <FaCss3Alt />
-              </span>
-            </Tooltip>
-            <Tooltip text="Tailwind CSS">
-              <span className="hover:text-orange-400 duration-700 ease-in-out">
-                <SiTailwindcss />
-              </span>
-            </Tooltip>
-            <Tooltip text="DaisyUI">
-              <span className="hover:text-orange-400 duration-700 ease-in-out">
-                <SiDaisyui />
-              </span>
-            </Tooltip>
-            <Tooltip text="JavaScript">
-              <span className="hover:text-orange-400 duration-700 ease-in-out">
-                <IoLogoJavascript />
-              </span>
-            </Tooltip>
+
+            <FramerMagnetic>
+              <Tooltip text="HTML5">
+                <span className="hover:text-orange-400 duration-700 ease-in-out">
+                  <FaHtml5 />
+                </span>
+              </Tooltip>
+            </FramerMagnetic>
+
+            <FramerMagnetic>
+              <Tooltip text="CSS3">
+                <span className="hover:text-orange-400 duration-700 ease-in-out">
+                  <FaCss3Alt />
+                </span>
+              </Tooltip>
+            </FramerMagnetic>
+            <FramerMagnetic>
+              <Tooltip text="Tailwind CSS">
+                <span className="hover:text-orange-400 duration-700 ease-in-out">
+                  <SiTailwindcss />
+                </span>
+              </Tooltip>
+            </FramerMagnetic>
+            <FramerMagnetic>
+              <Tooltip text="DaisyUI">
+                <span className="hover:text-orange-400 duration-700 ease-in-out">
+                  <SiDaisyui />
+                </span>
+              </Tooltip>
+            </FramerMagnetic>
+            <FramerMagnetic>
+              <Tooltip text="JavaScript">
+                <span className="hover:text-orange-400 duration-700 ease-in-out">
+                  <IoLogoJavascript />
+                </span>
+              </Tooltip>
+            </FramerMagnetic>
+
+
+
+
           </div>
           <div className="flex justify-between text-3xl lg:text-5xl text-[#3CD7A1]">
-            <Tooltip text="Vite">
-              <span className="hover:text-orange-400 duration-700 ease-in-out">
-                <SiVite />
-              </span>
-            </Tooltip>
-            <Tooltip text="React">
-              <span className="hover:text-orange-400 duration-700 ease-in-out">
-                <FaReact />
-              </span>
-            </Tooltip>
-            <Tooltip text="Node.js">
-              <span className="hover:text-orange-400 duration-700 ease-in-out">
-                <FaNode />
-              </span>
-            </Tooltip>
-            <Tooltip text="Express.js">
-              <span className="hover:text-orange-400 duration-700 ease-in-out">
-                <SiExpress />
-              </span>
-            </Tooltip>
-            <Tooltip text="MongoDB">
-              <span className="hover:text-orange-400 duration-700 ease-in-out">
-                <SiMongodb />
-              </span>
-            </Tooltip>
+
+            <FramerMagnetic>
+              <Tooltip text="Vite">
+                <span className="hover:text-orange-400 duration-700 ease-in-out">
+                  <SiVite />
+                </span>
+              </Tooltip>
+            </FramerMagnetic>
+            <FramerMagnetic>
+              <Tooltip text="React">
+                <span className="hover:text-orange-400 duration-700 ease-in-out">
+                  <FaReact />
+                </span>
+              </Tooltip>
+            </FramerMagnetic>
+            <FramerMagnetic>
+              <Tooltip text="Node.js">
+                <span className="hover:text-orange-400 duration-700 ease-in-out">
+                  <FaNode />
+                </span>
+              </Tooltip>
+            </FramerMagnetic>
+            <FramerMagnetic>
+              <Tooltip text="Express.js">
+                <span className="hover:text-orange-400 duration-700 ease-in-out">
+                  <SiExpress />
+                </span>
+              </Tooltip>
+            </FramerMagnetic>
+            <FramerMagnetic>
+              <Tooltip text="MongoDB">
+                <span className="hover:text-orange-400 duration-700 ease-in-out">
+                  <SiMongodb />
+                </span>
+              </Tooltip>
+            </FramerMagnetic>
+
+
+
+
           </div>
         </div>
       </div>

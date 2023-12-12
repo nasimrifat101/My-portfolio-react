@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import FramerMagnetic from "./FramerMagnetic";
 
 const Footer = () => {
   return (
@@ -11,19 +12,28 @@ const Footer = () => {
               to="https://www.linkedin.com/in/nasimrifat10/"
               target="_blank"
             >
-              <FaLinkedin />
+              <FramerMagnetic>
+
+                <FaLinkedin />
+              </FramerMagnetic>
             </NavLink>
           </span>
           <div className="border-r-2 rotate-12"></div>
           <span className=" hover:text-green-300 cursor-pointer duration-500">
             <NavLink to="https://wa.link/u6xfx5" target="_blank">
-              <FaWhatsapp />
+              <FramerMagnetic>
+
+                <FaWhatsapp />
+              </FramerMagnetic>
             </NavLink>
           </span>
           <div className="border-r-2 rotate-12"></div>
           <span className=" hover:text-green-300 cursor-pointer duration-500">
             <NavLink to="https://github.com/nasimrifat101" target="_blank">
-              <FaGithub />
+              <FramerMagnetic>
+
+                <FaGithub />
+              </FramerMagnetic>
             </NavLink>
           </span>
         </div>
