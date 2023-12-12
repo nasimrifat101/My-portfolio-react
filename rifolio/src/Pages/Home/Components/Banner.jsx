@@ -53,7 +53,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="lg:h-[500px] grid lg:grid-cols-2 max-w-6xl mx-auto lg:px-2 cursor-not-allowed p-2 lg:p-0">
+    <div className="lg:h-[500px] grid lg:grid-cols-2 max-w-6xl mx-auto lg:px-2 cursor-crosshair p-2 lg:p-0">
       <div className="space-y-5 flex flex-col justify-center p-4 lg:p-0">
         <h1 className="text-2xl font-bold">Hi I'm</h1>
 

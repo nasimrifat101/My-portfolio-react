@@ -22,7 +22,7 @@ const Works = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto lg:h-[570px] pb-5 lg:pb-0">
+    <div className="max-w-6xl mx-auto lg:h-[570px] pb-5 lg:pb-0 cursor-crosshair">
       <h1 className="px-4 text-2xl lg:px-0 lg:text-4xl font-bold pt-8">
         Some of my{" "}
         <span className="text-[#3CD7A1] hover:text-orange-400 duration-500">

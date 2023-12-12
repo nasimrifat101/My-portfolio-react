@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const ContactForm = () => {
   const form = useRef();
 
@@ -31,7 +32,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className=" py-10 lg:mt-20">
+    <div className=" py-10 lg:mt-20 cursor-crosshair">
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-5">
         <div className="">
           <form className="space-y-10 p-3 lg:p-0" ref={form} onSubmit={sendEmail}>
@@ -75,7 +76,7 @@ const ContactForm = () => {
         </div>
        <div className="hidden lg:block">
        <div className="flex justify-end">
-        <iframe src="https://giphy.com/embed/xT77XMx5VvvTfMsTrq" className="w-[480px] h-[480px]" allowFullScreen></iframe>
+        <iframe src="/giphy.gif" className="w-[480px] h-[480px]"></iframe>
         </div>
        </div>
       </div>

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className=" lg:h-[300px] py-10 bg-[#151515]">
+    <div className=" lg:h-[300px] py-10 bg-[#151515] cursor-crosshair">
       <div className="lg:space-y-36 max-w-6xl mx-auto">
         <div className="flex justify-around text-2xl lg:text-4xl lg:pt-10">
           <span className=" hover:text-green-300 cursor-pointer duration-500">

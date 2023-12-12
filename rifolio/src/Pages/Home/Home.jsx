@@ -38,7 +38,9 @@ const Home = () => {
       >
         <ContactForm></ContactForm>
       </div>
+      <div data-aos="fade-up" data-aos-duration="1500">
       <Footer />
+      </div>
     </div>
   );
 };
