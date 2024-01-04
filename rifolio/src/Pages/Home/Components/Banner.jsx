@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import hero from "../../../assets/landingg.png";
+import hero from "../../../assets/landingg.webp";
+import FramerMagnetic from "./FramerMagnetic";
 
 /* eslint-disable react/no-unescaped-entities */
 const Banner = () => {
@@ -31,7 +32,7 @@ const Banner = () => {
 
   const handleDownloadResume = () => {
     const resumePdfUrl =
-      "https://www.dropbox.com/scl/fi/luf2dlgvbs7i7lzjobeho/Rifats_resume_small.pdf?rlkey=rue2bzns4ht0wacwwhlcgmgri&dl=1";
+      "https://www.dropbox.com/scl/fi/ceyxq7xoyloufir84got3/Rifat-s-resume-portfolio.pdf?rlkey=r18nhs0ffg4hg9arku4tzhrz9&dl=1";
 
     const downloadLink = document.createElement("a");
     downloadLink.href = resumePdfUrl;
@@ -55,22 +56,22 @@ const Banner = () => {
   return (
     <div className="lg:h-[500px] grid lg:grid-cols-2 max-w-6xl mx-auto lg:px-2 cursor-crosshair p-2 lg:p-0">
       <div className="space-y-5 flex flex-col justify-center p-4 lg:p-0">
-        <h1 className="text-2xl font-bold">Hi I'm</h1>
+        <h1 className="text-2xl text-[#A6ADBB] font-bold">Hi I'm</h1>
 
         <h1 className="text-3xl lg:text-5xl font-bold text-[#3CD7A1] hover:text-violet-400 ease-in-out duration-1000">
           Nasim Ahamed Rifat
         </h1>
-        <div className="hover:text-orange-400 ease-in-out duration-1000 space-y-2">
+        <div className="text-[#A6ADBB] hover:text-orange-400 ease-in-out duration-1000 space-y-2">
           <h1 className="text-2xl lg:text-4xl font-semibold">
             Frontend Developer
           </h1>
         </div>
-        <p>
+        <p className="text-[#A6ADBB]">
           I like to create solid and scalable digital front-end products. My
           main goal is to give you the best visual experiences. From UI design
           to web development I can collaborate at every level.
         </p>
-        <p>{currentTime}. </p>
+        <p className="text-[#A6ADBB]">{currentTime}. </p>
         <span className="text-[#3CD7A1] font-semibold hover:text-orange-400 duration-700 ease-in-out">
           Available for works.
         </span>
@@ -83,7 +84,8 @@ const Banner = () => {
             {" "}
             Download Resume
           </button>
-          <button
+        <FramerMagnetic>
+        <button
            onClick={() => {
             handleDownloadResume();
             scrollToContactForm();
@@ -91,6 +93,7 @@ const Banner = () => {
           className="btn btn-outline border-orange-400 border-2 text-orange-400 hover:border-[#3CD7A1] hover:bg-[#3CD7A1] duration-500 ease-in-out hover:text-black">
             Hire Me
           </button>
+        </FramerMagnetic>
         </div>
       </div>
       <div className="flex justify-end opacity-80 hover:opacity-50 duration-1000 ease-in-out">

@@ -33,7 +33,7 @@ const Info = () => {
         </p>
       </motion.div>
       <div className="bodyy">
-        <p className="pp">
+        <p className="pp text-[#A6ADBB]">
         Thank you! If you have any <span className="spann"> inquiries, project proposals,</span> or just want to say hello, feel free to get in touch.
         </p>
       </div>

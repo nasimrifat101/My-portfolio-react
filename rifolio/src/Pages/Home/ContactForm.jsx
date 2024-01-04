@@ -36,7 +36,7 @@ const ContactForm = () => {
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-5">
         <div className="">
           <form className="space-y-10 p-3 lg:p-0" ref={form} onSubmit={sendEmail}>
-            <p className="text-2xl lg:text-6xl lg:leading-normal font-bold hover:text-green-300 duration-1000">Let's bring your ideas into reality.</p>
+            <p className="text-2xl text-[#A6ADBB] lg:text-6xl lg:leading-normal font-bold hover:text-green-300 duration-1000">Let's bring your ideas into reality.</p>
           <div className="flex w-full space-x-5">
           <div>
               <input

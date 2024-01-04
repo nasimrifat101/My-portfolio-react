@@ -6,7 +6,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiExpress, SiVite } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiDaisyui } from "react-icons/si";
-import hero from "../../assets/landing.png";
+import hero from "../../assets/landing.webp";
 import FramerMagnetic from "./Components/FramerMagnetic";
 
 const Tooltip = ({ text, children }) => {
@@ -28,7 +28,7 @@ const About = () => {
         <img src={hero} alt="landing" />
       </div>
       <div className="lg:col-span-2 px-5 space-y-5">
-        <h1 className=" text-2xl lg:text-4xl lg:mt-20 font-bold">
+        <h1 className="text-[#A6ADBB] text-2xl lg:text-4xl lg:mt-20 font-bold">
           I'm a{" "}
           <span className="text-[#3CD7A1] hover:text-orange-400 ease-in-out duration-500">
             Frontend Developer
@@ -39,14 +39,14 @@ const About = () => {
           </span>
           .
         </h1>
-        <p>
+        <p className="text-[#A6ADBB]">
           I enjoy talking complex problems and turning them into simple and
           beautiful interface designs. I also love the logic and structure of
           coding and always strive to write elegant and efficient code whether
           it be HTML CSS or any other languages. When I'm not coding or pushing
           pixels, you can find me in the gym.
         </p>
-        <p className="text-xl lg:text-3xl font-bold pb-5">
+        <p className="text-[#A6ADBB] text-xl lg:text-3xl font-bold pb-5">
           I'm{" "}
           <span className="text-[#3CD7A1] hover:text-orange-400 duration-500 ease-in-out">
             skilled

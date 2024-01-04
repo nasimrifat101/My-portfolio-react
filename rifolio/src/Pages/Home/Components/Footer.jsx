@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-between font-semibold text-xs">
           <div className="hidden lg:block">
-            <div className="flex space-x-5">
+            <div className="flex space-x-5 text-[#A6ADBB]">
               <h1>Ma’a as-salaama</h1>
               <h1>Au Revoir</h1>
               <h1>Adios</h1>
@@ -50,7 +50,7 @@ const Footer = () => {
             Design & Developed by Rifat
           </div>
           <div className="hidden lg:block">
-            <div className="flex space-x-5">
+            <div className="flex space-x-5 text-[#A6ADBB]">
               <h1>Ciao</h1>
               <h1>Aloha</h1>
               <h1>Sayōnara</h1>

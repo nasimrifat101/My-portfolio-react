@@ -23,7 +23,7 @@ const Works = () => {
 
   return (
     <div className="max-w-6xl mx-auto lg:h-[570px] pb-5 lg:pb-0 cursor-crosshair">
-      <h1 className="px-4 text-2xl lg:px-0 lg:text-4xl font-bold pt-8">
+      <h1 className="text-[#A6ADBB] px-4 text-2xl lg:px-0 lg:text-4xl font-bold pt-8">
         Some of my{" "}
         <span className="text-[#3CD7A1] hover:text-orange-400 duration-500">
           works
@@ -39,8 +39,8 @@ const Works = () => {
               <img src={item.image} alt={item.name} />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">{item.name}</h2>
-              <p>{item.description}</p>
+              <h2 className="card-title text-[#A6ADBB]">{item.name}</h2>
+              <p className="text-[#A6ADBB]">{item.description}</p>
 
               <p
                 onClick={() => handleNavigate(item.link)}
